@@ -13,7 +13,7 @@ public class OddOrEven {
 
         System.out.print("Enter a number: ");
         
-        int num = reader.nextInt();
+        long num = reader.nextLong();
 
         if(num % 2 == 0)
             System.out.println(num + " is even number.");
