@@ -15,10 +15,10 @@ public class EvenOrOddOne {
         long number = input.nextLong();
         
         if (number % 2 ==0){
-            System.out.println("This number is Even " );
-                   
+            System.out.println("This number is Even " );                   
         
         }
+        
         else {
             System.out.println("This number is odd. ");
         }

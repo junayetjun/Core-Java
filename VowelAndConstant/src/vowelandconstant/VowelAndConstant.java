@@ -15,12 +15,14 @@ public class VowelAndConstant {
         
         char letter = input.next().toUpperCase().charAt(0);
         
-        if(letter == 'A' || letter == 'E' || letter== 'I' || letter== 'O'|| letter=='U'){
-            System.out.println(letter+ " is a Vowel. ");
+        if(letter == 'A' || letter == 'E' || letter == 'I' || letter == 'O'|| letter == 'U'){
+            System.out.println(letter + " is a Vowel. ");
         }
-        else if(letter>= 'A' && letter<= 'Z') {
-            System.out.println(letter+ " is a Consonant. ");
+        
+        else if(letter >= 'A' && letter <= 'Z') {
+            System.out.println(letter + " is a Consonant. ");
         }
+        
         else {
         
             System.out.println("This is not Valid Letter. ");

@@ -11,7 +11,7 @@ public class PositiveAndNegativeNumber {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the Number. ");
         
-        long number = input.nextLong();
+        double number = input.nextDouble();
         
         if (number <0){
             System.out.println("The number is Negative");        
