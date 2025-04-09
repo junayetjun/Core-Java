@@ -20,9 +20,11 @@ public class VowelAndConsonanTwo {
                 letter.equalsIgnoreCase("U")){
                     
             System.out.println("This is a vowel Letter. ");
-        
+//        This is not right way to do vowel consonant work.
+
+
         }
-        else if (lette r >= "A" && letter <= "Z"){
+        else if (letter >= "A" && letter <= "Z"){
             System.out.println("This is a Consonant Letter.");
         
         }
