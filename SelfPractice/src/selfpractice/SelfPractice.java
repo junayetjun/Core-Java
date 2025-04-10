@@ -13,20 +13,17 @@ public class SelfPractice {
         System.out.println("Enter number ");
         int number = input.nextInt();
         
-        int count =1;
+        int count = 0;
         
-        for(int i =1; i<=number; i++){
-            
-            count++;
-        
+        for(int i = 1; i <= number; i++){
+             
+            count ++; 
+            System.out.println("No is: " + count);
         }
-        System.out.println("No is " + number);
+              
         
         
-        
-        
-        
-        
+                
     }
     
 }
