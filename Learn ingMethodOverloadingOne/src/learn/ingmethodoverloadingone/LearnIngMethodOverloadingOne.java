@@ -13,7 +13,7 @@ public class LearnIngMethodOverloadingOne {
 //
 //        int result = input.nextInt();
         
-        sum(10,20,30,40);
+        sum(10,20,30,40,100,200);
        
         
         

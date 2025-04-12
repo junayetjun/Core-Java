@@ -18,7 +18,7 @@ public class LearningMethodOverloading {
         
         int [] myArray = new int[n];
         
-        for (int i =0; i< n; i++){
+        for (int i = 0; i < n; i++){
             
             System.out.println("Enter the number ");
             int userInput = input.nextInt();
