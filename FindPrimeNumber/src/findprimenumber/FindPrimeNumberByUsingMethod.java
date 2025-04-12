@@ -1,4 +1,4 @@
-package findprimenumber;
+,package findprimenumber;
 
 import java.util.Scanner;
 

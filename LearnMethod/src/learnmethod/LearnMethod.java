@@ -1,6 +1,7 @@
 
 package learnmethod;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -13,21 +14,24 @@ public class LearnMethod {
 
 
 
-        Scanner input = new Scanner(System.in);
+//        Scanner input = new Scanner(System.in);
+//        
+//        System.out.println("Enter 1st number ");
+//        int a = input.nextInt();
+//        
+//        System.out.println("Enter 2nd number ");
+//        float s = input.nextFloat();
+//        
+//        System.out.println("Enter 3rd number ");
+//        double d = input.nextDouble();
+//        
+//        float result = doSum(a, s, d);
+//        
+//        System.out.println(result);
         
-        System.out.println("Enter 1st number ");
-        int a = input.nextInt();
         
-        System.out.println("Enter 2nd number ");
-        float s = input.nextFloat();
         
-        System.out.println("Enter 3rd number ");
-        double d = input.nextDouble();
-        
-        float result = doSum(a, s, d);
-        
-        System.out.println(result);
-        
+       
         
         
     }
@@ -38,7 +42,33 @@ public class LearnMethod {
         
         return result;
     
-     }
+     } 
+    
+    
+    public static int sum (){
+        int a;
+        return a;
+    
+    }
+    public static int sum (int a , int b ){
+        return a+b;
+    
+    }
+    public static void sum (int...a){
+        
+        
+        int sum=0;
+        
+        for(int item :a){
+            sum +=item;
+        
+        }
+//        int result = sum(10,20,30,40,50,60);
+        System.out.println(Arrays.toString(a));
+        System.out.println(sum);
+        
+        
+    }
     
     
 }
