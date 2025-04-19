@@ -20,20 +20,19 @@ public class MinAndMaxNumberMethod {
 
     }
 
-    public static String maxMinNumber(int a) {
+    public static String maxMinNumber(int size) {
         
-        int[] numbers = new int[a];
+        int[] numbers = new int[size];
 
-//         int maxNumber = 0;
-//         int minNumber = 999999999;
-//         
-        for (int index = 0; index < a; index++) {
+        
+        for (int index = 0; index < size; index++) {
 
             System.out.println("Enter number " + (index + 1));
             int userNumber = input.nextInt();
 
             numbers[index] = userNumber;
         }
+        
         System.out.println("My numbers are " + Arrays.toString(numbers));
 
         int maxNumber = numbers[0];
@@ -60,4 +59,4 @@ public class MinAndMaxNumberMethod {
 
 }
 
-}
+
