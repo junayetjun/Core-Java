@@ -3,7 +3,7 @@ package multidimentionalarrays;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MultiDimentionalArrays {
+public class MultiDimentionalArraysMain {
 
     public static void main(String[] args) {
 

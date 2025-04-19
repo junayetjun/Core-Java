@@ -43,7 +43,7 @@ public class MethodSumMultiDimentionalArray {
 
             }
 
-            System.out.println(" My sum is " + sum);
+           System.out.println(" My sum is " + sum);
 
         }
  
