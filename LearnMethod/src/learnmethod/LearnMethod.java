@@ -2,13 +2,14 @@
 package learnmethod;
 
 import java.util.Arrays;
-import java.util.Scanner;
+
 
 
 public class LearnMethod {
 
    
     public static void main(String[] args) {       
+        
 //        System.out.println((int)doSum(10, 20, 0));
 //        System.out.println(doSum(10, 20, 0));
 
@@ -45,11 +46,7 @@ public class LearnMethod {
      } 
     
     
-    public static int sum (){
-        int a;
-        return a;
     
-    }
     public static int sum (int a , int b ){
         return a+b;
     
