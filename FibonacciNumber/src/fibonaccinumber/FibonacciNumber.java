@@ -15,15 +15,15 @@ public class FibonacciNumber {
         
         int num1 = 0;
         int num2 = 1;
-        int sum = 0;
+        System.out.println("My fibonacci series is ");
         
         for (int index = 1; index <= inputNumber; index++) {
+            int num3 = num1+ num2;
+            System.out.print(num1 + ", ");
+            num1=num2;
+            num2=num3;
             
-            System.out.print(sum + ", ");
             
-            sum = num1 + num2;
-            num1 = num2;
-            num2 = sum;
         }
 
         
