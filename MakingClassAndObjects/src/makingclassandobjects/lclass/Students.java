@@ -52,7 +52,7 @@ public class Students {
     }
 
     public void setMarks(int marks) {
-        this.marks = marks;
+        this.marks = marks; 
     }
 
 }
