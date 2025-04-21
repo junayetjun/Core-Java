@@ -100,7 +100,85 @@ public class AllFile {
 
 
 
+        // Its a factorial 
 
+//        Scanner input = new  Scanner(System.in);
+//        
+//        System.out.println("Enter the value ");
+//        int userInput = input.nextInt();
+//        
+//        int num1 =1;
+//        
+//        for(int i =1; i <= userInput; i++){
+//            num1 *= i;        
+//        
+//        }
+//         System.out.println(num1 + " is a factorial number of " + userInput + ".");
+        
+        
+
+        // Its Bubble Sort
+
+//        Scanner input = new Scanner(System.in);
+//
+//        System.out.println("Enter the size ");
+//        int inputSize = input.nextInt();
+//
+//        int[] myArrrays = new int[inputSize];
+//
+//        for (int index = 0; index < myArrrays.length; index++) {
+//            System.out.println("Enter the values " + (index+1));
+//
+//            int userValues = input.nextInt();
+//            myArrrays[index] = userValues;
+//
+//        }
+//
+//        System.out.println("Before sorting " + Arrays.toString(myArrrays));
+//        System.out.println("---------------------------------");
+//
+//        for (int round = 0; round < myArrrays.length - 1; round++) {
+//            for (int step = 0; step < myArrrays.length - 1 - round; step++) {
+//
+//                if (myArrrays[step] > myArrrays[step + 1]) {
+//                    
+//                    int temp = myArrrays[step];
+//                    myArrrays[step] = myArrrays[step + 1];
+//                    myArrrays[step + 1] = temp;
+//
+//                }
+//
+//            }
+//
+//        }
+//
+//        System.out.println("After sorting " + Arrays.toString(myArrrays));
+
+
+        // Its Discount and Price
+
+        Scanner input = new Scanner(System.in);
+        
+        System.out.println("Enter the values ");
+        double userInput = input.nextDouble();
+        
+        double percentage = 0.05;
+        double sum;
+        if(userInput > 200){
+            sum = userInput * percentage;
+            userInput -= sum;
+            System.out.println("The actual Price "+userInput + " taka.");
+            System.out.println("You get discount " + sum + " taka.");
+            
+        
+        }
+        else{
+            System.out.println("Your Actual Price "+userInput + " taka.");
+            System.out.println("You Don't get any Discount ");
+        }
+        
+        
+        
     }
     
 }
