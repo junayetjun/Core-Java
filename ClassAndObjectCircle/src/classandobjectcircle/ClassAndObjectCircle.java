@@ -20,7 +20,7 @@ public class ClassAndObjectCircle {
         System.out.println("Enter the value");
         int userValue = input.nextInt();
         
-        Circle result = new Circle(userValue);
+        Circle result = new Circle (userValue);
         
         result.setRadious(userValue);
         
