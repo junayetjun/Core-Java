@@ -8,8 +8,11 @@ package makingclassandobjects.lclass;
  *
  * @author Admin
  */
-public class Students {
+public class Students extends StudentsMail{
 
+    
+ 
+    
     String name;
     String email;
     int marks;
@@ -54,5 +57,14 @@ public class Students {
     public void setMarks(int marks) {
         this.marks = marks; 
     }
+
+    @Override
+    public void setCourseName(String courseName) {
+        super.setCourseName(courseName); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+    }
+    
+    
+    
+    
 
 }

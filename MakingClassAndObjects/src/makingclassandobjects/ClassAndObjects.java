@@ -1,7 +1,7 @@
 
 package makingclassandobjects;
 
-import java.util.Scanner;
+
 import makingclassandobjects.lclass.Students;
 import makingclassandobjects.lclass.StudentsMail;
 
@@ -25,7 +25,9 @@ public class ClassAndObjects {
 //        istiaq.setMarks(userMark);
 //        
 //        System.out.println(istiaq.getResult());
+     
 
+                
 
         StudentsMail s = new StudentsMail(); //number1
         
