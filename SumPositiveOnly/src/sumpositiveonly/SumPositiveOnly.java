@@ -17,6 +17,7 @@ public class SumPositiveOnly {
         
         
         int sum=0 ;
+        
         while(userValue > 0){
             
             sum +=userValue;
