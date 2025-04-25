@@ -50,7 +50,13 @@ public class ClassAndObjects {
         System.out.println(f.getMarks());
         
         
+        StudentsMail sm = new StudentsMail();
         
+        
+        sm.setEmail("junayet@gmail.com");
+        
+        
+        System.out.println(sm.getEmail());
         
 
 
