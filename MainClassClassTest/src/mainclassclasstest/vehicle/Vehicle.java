@@ -4,6 +4,8 @@ package mainclassclasstest.vehicle;
 
 public class Vehicle {
     
+    //Using Normal Class
+    
     public int speed;
     public double regularPrice;
     public String color;

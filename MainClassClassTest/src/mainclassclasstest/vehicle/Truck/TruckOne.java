@@ -1,17 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package mainclassclasstest.vehicle.Truck;
 
 import mainclassclasstest.vehicle.VehicleOne;
 
 /**
  *
- * @author Admin
+ * @author Istiaq
  */
+
 public class TruckOne extends VehicleOne{
-    
+    //Using Abstract class
     private int weight;
 
     public TruckOne() {

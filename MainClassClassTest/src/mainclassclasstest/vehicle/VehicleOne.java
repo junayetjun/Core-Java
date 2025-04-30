@@ -2,6 +2,8 @@ package mainclassclasstest.vehicle;
 
 public abstract class VehicleOne {
 
+    
+   //Using Abstract class
     public int speed;
     public double regularPrice;
     public String color;

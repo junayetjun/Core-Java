@@ -5,7 +5,7 @@ import mainclassclasstest.vehicle.Vehicle;
 
 
 public class Truck extends Vehicle{
-    
+    //Using Normal Class
     private int weight;
 
     public Truck() {
