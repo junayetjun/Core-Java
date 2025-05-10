@@ -21,11 +21,18 @@ public class GenericSortList {
         number.add(2);
         number.add(7);
         
+        
+        
         System.out.println(number);
         Collections.sort(number);
         
         System.out.println(number);
         
+        
+        
+        
+        
     }
+    
     
 }
